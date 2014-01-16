@@ -3,14 +3,7 @@
 (def q4 '((3 + 9) * 5))
 (def q3 '(5 + (3 + 9) * 5))
 
-(/ 9 9)
-(type (first q))
-(first q)
-(if (instance? Long (first q))
-  1
-  0
-  )
-
+(def qp '(* (+ 6 5) 4))
 
 (cons `(* 4 5)  [5])
 
@@ -31,12 +24,3 @@
 (itp q2)
 (itp q3)
 (itp q4)
-
-(defn prefix [block]
-  )
-
-(defn fun [l]
-  l
-  )
-
-(fun q)
